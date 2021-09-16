@@ -851,12 +851,12 @@ header{
 }
 
 .footer-main{
-    width: ;
+    width: 100%;
+    background: #e3e6eb;
 }
 .footer{
     width: 1280px;
     height: 258px;
-    background: #e3e6eb;
     margin: 0 auto;
 
 }
@@ -864,11 +864,11 @@ header{
 .footer-nav, .footer-nav2{
     width: 1280px;
     float: left;
+    border-bottom: 1px solid #333;
 }
 
 .footer-nav ul{
-    
-    border-bottom: 1px solid #333;
+    float: left;
 }
 
 .footer-nav ul li{
@@ -885,12 +885,16 @@ header{
     margin-left: 0;
 }
 
-
-
-
 .footer-nav ul li a{
     color: #333;
     text-decoration: none;
-
 }
 
+.Language{
+    width: 110px;
+    float: right;
+    padding-bottom: 5px;
+    background-color: white;
+    text-align: center;
+    margin-top: 28px;
+}
