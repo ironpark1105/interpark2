@@ -6,6 +6,9 @@
 a{
     text-decoration: none;
 }
+html{
+    min-width: 1280px;
+}
 body{
     width: 100%;
     font-size: 16px;
@@ -16,6 +19,23 @@ body{
 }
 
 /**롤링베너**/
+.title-time {
+    font-size: 44px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* 변형속성: 이동(위치조정) */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 0 0 8px #000;
+  }
+  
+  #time {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
 .frame {
     overflow: hidden; 
     position: relative;
@@ -506,16 +526,15 @@ header{
 }
 
 .banner-back{
-
     width: 100%;
     height: 300px;
     background-color: black;
 }
 
-
-
+/*****************rank***************************/
 .contents2{
-    width: 100%;
+    width: 1280px;
+    min-width: 1280px;
 }
 
 .contents2 li a:hover{
@@ -551,13 +570,13 @@ header{
 }
 
 .rankingimage{
+    width: 1280px;
     margin-top: 56px;
-    text-align: center;
 }
 
 .dc4{
     position: relative;
-    display: inline-block;
+    float: left;
     margin: 0 10px;
     width: 414px;
     height: 548px;
@@ -573,7 +592,7 @@ header{
     width: 75px;
     height: 75px;
     border: solid 7px white;
-    text-align: center;
+    float: left;
     color: white;
     padding-top: 15px;
     font-size: 20px;
@@ -587,10 +606,9 @@ header{
 }
 .dc4 a:hover{
     filter: brightness(30%);
-    
     transition: 0.5s;
 }
-
+/********rank*************/
 .video-back{
     width: 1920;
     height: 500px;

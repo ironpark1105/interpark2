@@ -20,3 +20,19 @@ function changeBG(){
 }
 //일정시간마다 자동으로 배경 바꾸기
 setInterval(changeBG,4000);
+
+function showDate() {
+    let d = new Date();
+    // 년도
+    let year = d.getFullYear();
+    // 월(+1)
+    let month = d.getMonth() + 1;
+    // 일
+    let date = d.getDate();
+  
+    document.getElementById('year').innerHTML = year;
+    document.getElementById('month').innerHTML = month;
+    document.getElementById('date').innerHTML = date;
+  }
+  
+  showDate();
